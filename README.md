@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Project Name</b></h3>
+  <h3><b>Responsive 'To-Do List' App</b></h3>
 
 </div>
 
@@ -30,7 +30,7 @@
 # 📖 Project Name<a name="about-project"></a>
 
 
-Add description long.
+This project was elaborated during the Microverse Course, is it a To-Do app with minimalistic but user friendly features to register your To-do's in a different way, more old school and without all the fuss.
 
 ## 🛠 Built With Love and Passion<a name="built-with"></a>
 
@@ -59,8 +59,9 @@ Add description long.
 
 ### Key Features <a name="key-features"></a>
 
-add key 1
-add key 2
+- List Structure (JS/HTML);
+- Linters;
+- Webpack & configs;
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,8 +136,9 @@ N/A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-add item 1
-add item 2
+- Improved UX (CSS/JS) adding functionallity's.
+- Login Screen with respective customer journey history.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
