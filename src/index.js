@@ -1,9 +1,8 @@
-import _ from 'lodash';
 import './style.css';
 
 // Array of objects (For test phase)
 
-staticlistitems = [
+const staticlistitems = [
   {
   id: 0, 
   description: "Clean my room", 
@@ -35,21 +34,45 @@ staticlistitems = [
     status: 0
   },]
 
-  document.addEventListener("", () => {
+const todolist = () => {
 
   const listparent = document.getElementsByClassName('listparent');
   const listtitle = document.createElement('div');
-  listtitle.className = 'listtitle';
-  listparent.appendChild(listtitle);
+
+  listparent.append(listtitle);
 
   const title = document.createElement('h2');
-  const refresher = document.createElement('refresher');
+  const refresher = document.createElement('div');
+
+  const inputparent = document.createElement('div');
+  inputparent.className = 'inputparent';
+
+  const listinput = document.createElement('input');
+  listinput.className = 'listinput';
+  listinput.type = 'text';
+  listinput.placeholder = 'Add a new task';
+
+  const itemsgrandparent = document.createElement('div');
+  itemsgrandparent.className = 'itemsgrandparent';
+  const itemparent = document.createElement('div');
+  const checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  const itemdescription = document.createElement('p');
+  itemdescription.className = 'itemdescription';
+  const itemoptions = document.createElement('div');
+  itemoptions.className = 'itemoptions';
 
   title.innerHTML = "To Do List";
   title.className = 'title';
   refresher.className = 'refresher';
+  listtitle.className = 'listtitle';
+
+
+
 
   listtitle.appendChild(title);
   listtitle.appendChild(refresher);
 
-  });
+}
+
+todolist();
