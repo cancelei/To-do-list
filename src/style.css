@@ -1,3 +1,94 @@
-.hello {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  background: lightskyblue;
+}
+
+.listparent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+  border: solid 2px black;
+  margin: 2% 5% 3% 5%;
+  width: auto;
+}
+
+.listtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2% 5% 3% 5%;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.refresher {
+  justify-content: center;
+  align-self: center;
+  width: 40px;
+}
+
+.inputparent {
+  width: 100%;
+  height: 2rem;
+}
+
+.listinput {
+  all: unset;
+  width: 100%;
+  height: 2rem;
+  margin: 1%;
+}
+
+.itemsgrandparent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.itemparent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 2rem;
+  width: 100%;
+  align-content: center;
+  background-color: wheat;
+}
+
+.itemdescription {
+  width: 100%;
+  height: 2rem;
+  margin: 1%;
+}
+
+.itemoptions {
+  width: 40px;
+  height: 2rem;
+  margin: 1%;
+}
+
+.buttonclear {
+  align-self: center;
+  height: 2rem;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(169, 126, 48);
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
