@@ -59,8 +59,8 @@ This project was elaborated during the Microverse Course, is it a To-Do app with
 
 ### Key Features <a name="key-features"></a>
 
-- List Structure (JS/HTML);
-- Linters;
+- Add/Remove List items;
+- Basic Structure & Linters;
 - Webpack & configs;
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -133,7 +133,7 @@ N/A
 
 ## 🔭 Future Features / Initiatives<a name="future-features"></a>
 
-- Improved UX (CSS/JS) adding functionallity's.
+- Improved UX (CSS/JS).
 - Login Screen with respective customer journey history.
 - Company Strategy planning to prevent Design Error's.
 
