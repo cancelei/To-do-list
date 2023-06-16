@@ -59,7 +59,7 @@ This project was elaborated during the Microverse Course, is it a To-Do app with
 
 ### Key Features <a name="key-features"></a>
 
-- Add/Remove List items;
+- Interactive List (Clear, add/Remove and mark as done the items);
 - Basic Structure & Linters;
 - Webpack & configs;
 
@@ -134,7 +134,7 @@ N/A
 ## 🔭 Future Features / Initiatives<a name="future-features"></a>
 
 - Improved UX (CSS/JS).
-- Login Screen with respective customer journey history.
+- New user and Login Screen with respective customer journey history.
 - Company Strategy planning to prevent Design Error's.
 
 
