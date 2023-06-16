@@ -37,7 +37,6 @@ tasks.forEach((task) => {
           const delteIndex = task.firstChild.firstChild.getAttribute('id');
           removeTask(delteIndex);
           window.location.reload();
-        // console.log(task.firstChild.firstChild);
         });
       }
     });
@@ -66,7 +65,7 @@ checkbox.forEach((box) => {
   });
 });
 
-const clearButton = document.querySelector('.clear-btn');
+const clearButton = document.querySelector('.btnclear');
 clearButton.addEventListener('click', (e) => {
   e.preventDefault();
   clearCompleted();
