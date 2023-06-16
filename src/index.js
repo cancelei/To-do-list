@@ -5,7 +5,9 @@ import {
   clearCompleted,
 }
 from './modules/liststatus.js';
-import { render, addTask, editTask, removeTask, } from './modules/handletodo.js';
+import {
+  render, addTask, editTask, removeTask,
+} from './modules/handletodo.js';
 
 render();
 // add task when text is submitted

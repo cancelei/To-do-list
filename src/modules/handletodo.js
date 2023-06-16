@@ -16,7 +16,7 @@ export const render = () => {
   input.classList.add('task-desc');
   input.placeholder = 'Add to your list...';
   btnclear.textContent = 'Clear all completed';
-  btnclear.classList.add('clear-btn');
+  btnclear.classList.add('btnclear');
   container.append(input);
   // Mapping through toDoLists array
   tasklist.innerHTML = '';
