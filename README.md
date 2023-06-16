@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Project Name</b></h3>
+  <h3><b>Responsive 'To-Do List' App</b></h3>
 
 </div>
 
@@ -30,7 +30,7 @@
 # 📖 Project Name<a name="about-project"></a>
 
 
-Add description long.
+This project was elaborated during the Microverse Course, is it a To-Do app with minimalistic but user friendly features to register your To-do's in a different way, more old school and without all the fuss.
 
 ## 🛠 Built With Love and Passion<a name="built-with"></a>
 
@@ -59,8 +59,9 @@ Add description long.
 
 ### Key Features <a name="key-features"></a>
 
-add key 1
-add key 2
+- List Structure (JS/HTML);
+- Linters;
+- Webpack & configs;
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,9 +112,6 @@ npx Stylelint "**/*.{css,scss}"
 - To run linter test on ES Lint (JS). Use the below command:
 npx eslint .
 
-
-
-
 ### Deployment
 
 N/A
@@ -133,10 +131,12 @@ N/A
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features / Initiatives<a name="future-features"></a>
 
-add item 1
-add item 2
+- Improved UX (CSS/JS) adding functionallity's.
+- Login Screen with respective customer journey history.
+- Company Strategy planning to prevent Design Error's.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,11 +152,6 @@ N/A
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-Original design idea by Cindy Shin in Behance.<a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015.">BEHANCE</a>
-
-Icons by Surang (<a href="https://www.flaticon.com/br/icones-gratis/agricultura-e-jardinagem" title="agricultura e jardinagem ícones">Agricultura e jardinagem ícones criados por surang - Flaticon</a>)
-
 
 ## 📝 License <a name="license"></a>
 
