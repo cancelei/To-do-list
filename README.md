@@ -112,9 +112,6 @@ npx Stylelint "**/*.{css,scss}"
 - To run linter test on ES Lint (JS). Use the below command:
 npx eslint .
 
-
-
-
 ### Deployment
 
 N/A
@@ -134,10 +131,11 @@ N/A
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features / Initiatives<a name="future-features"></a>
 
 - Improved UX (CSS/JS) adding functionallity's.
 - Login Screen with respective customer journey history.
+- Company Strategy planning to prevent Design Error's.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -154,11 +152,6 @@ N/A
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-Original design idea by Cindy Shin in Behance.<a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015.">BEHANCE</a>
-
-Icons by Surang (<a href="https://www.flaticon.com/br/icones-gratis/agricultura-e-jardinagem" title="agricultura e jardinagem ícones">Agricultura e jardinagem ícones criados por surang - Flaticon</a>)
-
 
 ## 📝 License <a name="license"></a>
 
