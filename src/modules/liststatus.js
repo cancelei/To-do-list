@@ -5,6 +5,7 @@ export const updateStatus = (checkedIndex, boxstatus) => {
   localStorage.setItem('toDoLists', JSON.stringify(taskLists));
   window.location.reload();
 };
+
 // function that clears all completed lists
 export const clearCompleted = () => {
   const taskLists = JSON.parse(localStorage.getItem('toDoLists')) || [];
